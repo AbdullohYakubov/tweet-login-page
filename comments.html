@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comments</title>
+  </head>
+  <body>
+    <section>
+      <a href="./posts.html">
+        <img
+          src="./img/left-arrow.svg"
+          alt="left-arrow"
+          height="20"
+          width="20" />
+      </a>
+
+      <ul class="comments__list"></ul>
+    </section>
+
+    <template id="comments__template">
+      <li class="comment">
+        <h3 class="comment__title"></h3>
+        <h3 class="comment__writer"></h3>
+        <p class="comment__content"></p>
+      </li>
+    </template>
+    <script src="./js/utils.js"></script>
+    <script src="./js/comments.js"></script>
+  </body>
+</html>
